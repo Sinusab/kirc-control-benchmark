@@ -1,0 +1,23 @@
+# Heavy biological data matrices
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Analysis outputs
+results/tables/*.csv
+results/tables/*.tsv
+results/figures/*.png
+results/figures/*.pdf
+!results/tables/.gitkeep
+!results/figures/.gitkeep
+
+# R run artifacts
+.Rhistory
+.RData
+.Rproj.user/
+*.Rout
+
+# Colab / OS junk
+.ipynb_checkpoints/
+.DS_Store
